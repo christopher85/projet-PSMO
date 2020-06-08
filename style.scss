@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-image: url(./resources/maison-2.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+ul{
+    width: 100vh;
+    display: flex;
+    justify-content: space-around;
+}
+li {
+    font-family: 'kalam', sans-serif;
+    font-size: 30px;
+    a{
+    color: blue;
+    border-radius: 10px ;
+    border: 2px solid blue;
+    padding:5px 20px;
+    background-color: rgba(218, 216, 216, 0.493);
+    }
+}
