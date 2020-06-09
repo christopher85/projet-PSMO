@@ -7,10 +7,7 @@
 }
 
 body {
-    background-image: url(./resources/maison-2.jpeg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: rgb(111, 185, 245);
     height: 100vh;
 }
 
@@ -39,3 +36,86 @@ li {
         background-color: rgba(218, 216, 216, 0.493);
     }
 }
+/* ossature bois
+===============*/
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1{
+        text-transform: uppercase;
+        font-family: 'kalam', sans-serif;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    hr{
+        width: 300px;
+        background-color: rgb(58, 58, 248);
+        border: 0;
+        height: 2px;
+        margin: 20px 0 50px 0;
+    }
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1200px;
+    margin: auto;
+    .bois p{
+        font-family: 'kalam', sans-serif;
+        font-size: 20px;
+        text-align: center;
+        color: white;
+    }
+}
+
+/*devis
+==============*/
+.maison{
+    background-image: url(./resources/mais.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1200px;
+    margin: auto;
+    .devis p{
+        font-family: 'kalam', sans-serif;
+        font-size: 20px;
+        text-align: center;
+        color: white;
+    }
+}
+
+
+/*sismique
+================*/
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1200px;
+    margin: auto;
+    .norme p{
+        font-family: 'kalam', sans-serif;
+        font-size: 20px;
+        text-align: center;
+        color: white;
+    }
+}
+.image{
+    height: 300px;
+    width: 500px;
+}
+
+

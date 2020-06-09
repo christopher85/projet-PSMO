@@ -59,6 +59,7 @@ section {
       -ms-flex-align: center;
           align-items: center;
   margin: 120px 0 0 300px;
+  border-radius: 15px;
 }
 
 .carousel {
@@ -83,7 +84,6 @@ section {
   border-radius: 15px;
 }
 
-/* cell number */
 .carousel-cell:before {
   display: block;
   text-align: center;

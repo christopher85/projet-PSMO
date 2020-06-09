@@ -8,10 +8,7 @@
 }
 
 body {
-  background-image: url(./resources/maison-2.jpeg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #6fb9f5;
   height: 100vh;
 }
 
@@ -47,5 +44,113 @@ li a {
   border: 2px solid blue;
   padding: 5px 20px;
   background-color: rgba(218, 216, 216, 0.493);
+}
+
+/* ossature bois
+===============*/
+.title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.title h1 {
+  text-transform: uppercase;
+  font-family: 'kalam', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.title hr {
+  width: 300px;
+  background-color: #3a3af8;
+  border: 0;
+  height: 2px;
+  margin: 20px 0 50px 0;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1200px;
+  margin: auto;
+}
+
+.container .bois p {
+  font-family: 'kalam', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+
+/*devis
+==============*/
+.maison {
+  background-image: url(./resources/mais.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1200px;
+  margin: auto;
+}
+
+.container .devis p {
+  font-family: 'kalam', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+
+/*sismique
+================*/
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1200px;
+  margin: auto;
+}
+
+.container .norme p {
+  font-family: 'kalam', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+
+.image {
+  height: 300px;
+  width: 500px;
 }
 /*# sourceMappingURL=prestation.css.map */
