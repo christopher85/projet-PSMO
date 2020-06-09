@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,33 +6,87 @@
     list-style: none;
 }
 
-body{
-    background-image: url(./resources/maison-2.jpeg);
+body {
+    background-image: url(./resources/floor-plan-on-table-834892.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-top: 20px;
 }
 
-ul{
+ul {
     width: 100vh;
     display: flex;
     justify-content: space-around;
 }
+
 li {
     font-family: 'kalam', sans-serif;
     font-size: 30px;
-    a{
-    color: blue;
-    border-radius: 10px ;
-    border: 2px solid blue;
-    padding:5px 20px;
-    background-color: rgba(218, 216, 216, 0.493);
+
+    a {
+        color: blue;
+        border-radius: 10px;
+        border: 2px solid blue;
+        padding: 5px 20px;
+        background-color: rgba(218, 216, 216, 0.493);
+    }
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 120px 0 0 300px;
+}
+.carousel {
+    width: 100vh;
+    height: 500px;
+    border-radius: 15px;
+    margin-left: 100px;
+}   
+
+.carousel-cell {
+    width: 100vh;
+    height: 500px;
+    margin-right: 10px;
+    border-radius: 15px;
+    
+    img{
+        width: 100vh;
+        height: 500px;
+        background-position: center;
+        background-size: cover;
+        border-radius: 15px;
+    }
+}
+
+/* cell number */
+.carousel-cell:before {
+    display: block;
+    text-align: center;
+    border-radius: 15px; 
+}
+.logo{
+    margin-left: 300px;
+}
+.logo-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 30px;
+    padding: 10px;
+    i{
+        margin: 10px;
+        padding: 10px;
+        border-radius: 50px;
+        color: blue;
+        background: rgba(218, 216, 216, 0.493);
     }
 }

@@ -8,7 +8,7 @@
 }
 
 body {
-  background-image: url(./resources/maison-2.jpeg);
+  background-image: url(./resources/floor-plan-on-table-834892.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -47,5 +47,73 @@ li a {
   border: 2px solid blue;
   padding: 5px 20px;
   background-color: rgba(218, 216, 216, 0.493);
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 120px 0 0 300px;
+}
+
+.carousel {
+  width: 100vh;
+  height: 500px;
+  border-radius: 15px;
+  margin-left: 100px;
+}
+
+.carousel-cell {
+  width: 100vh;
+  height: 500px;
+  margin-right: 10px;
+  border-radius: 15px;
+}
+
+.carousel-cell img {
+  width: 100vh;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.logo {
+  margin-left: 300px;
+}
+
+.logo-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.logo-2 i {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 50px;
+  color: blue;
+  background: rgba(218, 216, 216, 0.493);
 }
 /*# sourceMappingURL=style.css.map */
