@@ -18,7 +18,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 20px;
+    margin: 20px;
 }
 
 ul {
@@ -38,4 +38,24 @@ li {
         padding: 5px 20px;
         background-color: rgba(218, 216, 216, 0.493);
     }
+}
+
+/*picture
+==================*/
+
+.picture-1{
+    width: 100%;
+    display: grid;
+    grid-auto-flow: dense;
+    grid-template: "1fr 1fr 1fr 1fr 1fr" 20vh
+                   "1fr 1fr 1fr 1fr 1fr" 20vh
+                   "1fr 1fr 1fr 1fr 1fr" 20vh;
+    grid-gap: 5px;
+}
+.picture-1 .box{
+    position: relative;
+    background: #ccc;
+}
+.picture-1 .box.a{
+    grid-row: span 2;
 }
