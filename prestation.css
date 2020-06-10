@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -21,10 +22,10 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 20px;
+  margin: 20px 0;
 }
 
-ul {
+nav ul {
   width: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -33,12 +34,12 @@ ul {
       justify-content: space-around;
 }
 
-li {
+nav li {
   font-family: 'kalam', sans-serif;
   font-size: 30px;
 }
 
-li a {
+nav li a {
   color: blue;
   border-radius: 10px;
   border: 2px solid blue;
@@ -54,7 +55,7 @@ li a {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  height: 60vh;
+  height: 50vh;
 }
 
 .title {
@@ -101,42 +102,15 @@ li a {
 
 .container .bois p {
   font-family: 'kalam', sans-serif;
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
   color: #0026ff;
 }
 
-/*devis
-==============*/
-.container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 1200px;
-  margin: auto;
-}
-
-.container .devis p {
-  font-family: 'kalam', sans-serif;
-  font-size: 30px;
-  text-align: center;
-  color: white;
-}
-
 /*sismique
 ================*/
-.maison-1 {
-  background-image: url(./resources/Plan-dune-maison.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  height: 60vh;
+.sismic {
+  height: 55vh;
 }
 
 .container {
@@ -156,11 +130,68 @@ li a {
   font-family: 'kalam', sans-serif;
   font-size: 20px;
   text-align: center;
-  color: #0026ff;
+  color: white;
 }
 
 .image {
   height: 300px;
   width: 500px;
+}
+
+/*devis
+==============*/
+.maison-1 {
+  background-image: url(./resources/Plan-dune-maison.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 65vh;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1200px;
+  margin: auto;
+}
+
+.container .devis p {
+  font-family: 'kalam', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  color: #0026ff;
+}
+
+/*rénovation
+==============*/
+.renovation {
+  height: 60vh;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1200px;
+  margin: auto;
+}
+
+.container .reno p {
+  font-family: 'kalam', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: white;
 }
 /*# sourceMappingURL=prestation.css.map */

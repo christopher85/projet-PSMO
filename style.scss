@@ -41,14 +41,15 @@ li {
 }
 section{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    margin: 120px 0 0 300px;
+    margin: 120px;
+}
+
 .carousel {
     width: 100vh;
     height: 500px;
     border-radius: 15px;
-    margin-left: 100px;
 }   
 
 .carousel-cell {
