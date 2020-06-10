@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-image: url(./resources/contact.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px;
+}
+
+ul {
+  width: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+li {
+  font-family: 'kalam', sans-serif;
+  font-size: 28px;
+}
+
+li a {
+  color: blue;
+  border-radius: 10px;
+  border: 2px solid blue;
+  padding: 5px 20px;
+  background-color: rgba(218, 216, 216, 0.493);
+}
+
+.contact-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 15px;
+  width: 500px;
+  height: 600px;
+  margin: auto;
+  -webkit-box-shadow: 0px 0px 27px 15px #0026ff;
+          box-shadow: 0px 0px 27px 15px #0026ff;
+  background: rgba(255, 255, 255, 0.733);
+}
+
+.contact-1 .contact h2 {
+  font-family: 'kalam', sans-serif;
+  font-size: 30px;
+}
+
+.contact-1 .contact hr {
+  height: 2px;
+  background: cyan;
+  border: 0;
+  width: 200px;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: 'kalam', sans-serif;
+  font-size: 15px;
+}
+
+.logo i {
+  padding: 10px;
+}
+/*# sourceMappingURL=contact.css.map */

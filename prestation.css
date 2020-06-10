@@ -26,7 +26,7 @@ nav {
 }
 
 nav ul {
-  width: 100vh;
+  width: 120vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
