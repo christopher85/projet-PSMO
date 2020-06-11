@@ -80,3 +80,43 @@ img:hover{
     transform: scale(1.5);
     z-index: 1;
 }
+
+/*média queries
+====================*/
+
+@media screen and (max-width:900px){
+    nav{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    img{
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:750px){
+    .picture-1{
+        grid-template: "1fr 1fr 1fr" 20vh
+        "1fr 1fr 1fr" 20vh
+        "1fr 1fr 1fr" 20vh
+        "1fr 1fr 1fr" 20vh
+    }
+}
+
+@media screen and (max-width:650px){
+    li a{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:500px){
+    li a{
+        font-size: 15px;
+    }
+    .picture-1{
+        grid-template: "1fr 1fr " 15vh
+                       "1fr 1fr " 15vh
+                       "1fr 1fr " 15vh
+                       "1fr 1fr " 15vh
+                       "1fr 1fr " 15vh;
+    }
+}
