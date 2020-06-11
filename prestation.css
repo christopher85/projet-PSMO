@@ -103,7 +103,7 @@ nav li a {
 .container .bois p {
   font-family: 'kalam', sans-serif;
   font-size: 20px;
-  text-align: center;
+  text-align: right;
   color: #0026ff;
 }
 
@@ -129,7 +129,7 @@ nav li a {
 .container .norme p {
   font-family: 'kalam', sans-serif;
   font-size: 20px;
-  text-align: center;
+  text-align: left;
   color: white;
 }
 
@@ -165,7 +165,7 @@ nav li a {
 .container .devis p {
   font-family: 'kalam', sans-serif;
   font-size: 25px;
-  text-align: center;
+  text-align: right;
   color: #0026ff;
 }
 
@@ -191,7 +191,8 @@ nav li a {
 .container .reno p {
   font-family: 'kalam', sans-serif;
   font-size: 20px;
-  text-align: center;
+  text-align: left;
+  margin-left: 20px;
   color: white;
 }
 
@@ -222,6 +223,9 @@ nav li a {
   }
   .devis p {
     font-size: 20px !important;
+  }
+  p {
+    text-align: center !important;
   }
   .img-2 {
     height: 300px;
@@ -268,6 +272,7 @@ nav li a {
   }
   p {
     font-size: 15px !important;
+    text-align: center !important;
   }
   .img-2 {
     height: 100px !important;
