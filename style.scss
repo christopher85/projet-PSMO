@@ -90,3 +90,38 @@ section{
         background: rgba(218, 216, 216, 0.493);
     }
 }
+
+/*média queries
+====================*/
+
+@media screen and (max-width:900px){
+    nav{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    img{
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:850px){
+    section{
+        margin: 60px;
+    }
+}
+@media screen and (max-width:650px){
+    li a{
+        font-size: 20px;
+    }
+    section{
+        margin: 50px 20px;
+    }
+}
+@media screen and (max-width:500px){
+    li a{
+        font-size: 15px;
+    }
+    section{
+        margin: 50px 1px;
+    }
+}
