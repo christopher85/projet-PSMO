@@ -75,13 +75,19 @@ form {
     flex-direction: column;
     font-family: 'kalam', sans-serif;
     font-size: 15px;
+    a{
+    font-family: 'kalam', sans-serif;
+    font-size: 15px;
+    color: black;
+    }
 
-    i {
+    i{
         padding: 20px;
         font-size: 30px;
         color: blue;
     }
 }
+
 form{
     input, textarea{
         margin: 10px;

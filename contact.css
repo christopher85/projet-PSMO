@@ -105,6 +105,12 @@ form {
   font-size: 15px;
 }
 
+.logo a {
+  font-family: 'kalam', sans-serif;
+  font-size: 15px;
+  color: black;
+}
+
 .logo i {
   padding: 20px;
   font-size: 30px;
