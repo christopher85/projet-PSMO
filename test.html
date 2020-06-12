@@ -13,109 +13,65 @@
     <script src="https://kit.fontawesome.com/cc5ec0b7b9.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="test.css">
 </head>
-<body>
 
-    <h2 style="text-align:center">Lightbox</h2>
-    
-    <div class="row">
-      <div class="column">
-        <img src="./resources/carousel.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
-      </div>
-      <div class="column">
-        <img src="./resources/carousel2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
-      </div>
-      <div class="column">
-        <img src="./resources/carousel4.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
-      </div>
-      <div class="column">
-        <img src="./resources/carousel5.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
-      </div>
+<body>
+    <nav>
+
+        <img src="./resources/logo.jpeg" alt="">
+        <div class="en-tete">
+            <ul>
+                <li><a href="./index.html">Accueil</a></li>
+                <li><a href="./prestation.html">Prestations</a></li>
+                <li><a href="./photo.html">Réalisation</a></li>
+                <li><a href="./test.html">Contact</a></li>
+            </ul>
+        </div>
+        
+
+    </nav>
+
+
+    <div class="contact-form-container">
+        <div class="contact-us">
+            <div class="contact-header">
+                <h1> &#9135;&#9135;&#9135;&#9135;&nbsp;&nbsp;Contactez-moi</h1>
+            </div>
+            <div class="social-bar">
+                <ul>
+                    <li><i class="fab fa-facebook-f"></i></li>
+                    <li><i class="fab fa-twitter"></i></li>
+                    <li><i class="fab fa-instagram"></i></li>
+                    <li><i class="fab fa-dribbble"></i></li>
+                </ul>
+            </div>
+        </div>
+        <div class="header">
+            <h1>Contactez moi</h1>
+            <h2>Pour démarrer votre nouveau Projet!</h2>
+        </div>
+        <div class="address">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>49122 Le May</h3>
+            <h3> France</h3>
+        </div>
+        <div class="phone">
+            <i class="fas fa-phone-alt"></i>
+            <h3>06 23 05 66 04</h3>
+        </div>
+        <div class="email">
+            <i class="fas fa-envelope"></i>
+            <h3>https://www.psmo.fr</h3>
+        </div>
+        <div class="contact-form">
+            <form>
+                <input placeholder="Nom" type="text" />
+                <input placeholder="Email" type="email" />
+                <textarea placeholder="tapez votre Projet..." rows="4"></textarea>
+                <button type="button">Envoyez </button>
+            </form>
+        </div>
     </div>
-    
-    <div id="myModal" class="modal">
-      <span class="close cursor" onclick="closeModal()">&times;</span>
-      <div class="modal-content">
-    
-        <div class="mySlides">
-          <div class="numbertext">1 / 4</div>
-          <img src="./resources/carousel.jpg" style="width:100%">
-        </div>
-    
-        <div class="mySlides">
-          <div class="numbertext">2 / 4</div>
-          <img src="./resources/carousel2.jpg" style="width:100%">
-        </div>
-    
-        <div class="mySlides">
-          <div class="numbertext">3 / 4</div>
-          <img src="./resources/carousel4.jpg" style="width:100%">
-        </div>
-        
-        <div class="mySlides">
-          <div class="numbertext">4 / 4</div>
-          <img src="./resources/carousel5.jpg" style="width:100%">
-        </div>
-        
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    
-        <div class="caption-container">
-          <p id="caption"></p>
-        </div>
-    
-    
-        <div class="column">
-          <img class="demo cursor" src="./resources/carousel.jpg" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
-        </div>
-        <div class="column">
-          <img class="demo cursor" src="./resources/carousel2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Snow">
-        </div>
-        <div class="column">
-          <img class="demo cursor" src="./resources/carousel4.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
-        </div>
-        <div class="column">
-          <img class="demo cursor" src="./resources/carousel5.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
-        </div>
-      </div>
-    </div>
-    <script>
-        function openModal() {
-          document.getElementById("myModal").style.display = "block";
-        }
-        
-        function closeModal() {
-          document.getElementById("myModal").style.display = "none";
-        }
-        
-        var slideIndex = 1;
-        showSlides(slideIndex);
-        
-        function plusSlides(n) {
-          showSlides(slideIndex += n);
-        }
-        
-        function currentSlide(n) {
-          showSlides(slideIndex = n);
-        }
-        
-        function showSlides(n) {
-          var i;
-          var slides = document.getElementsByClassName("mySlides");
-          var dots = document.getElementsByClassName("demo");
-          var captionText = document.getElementById("caption");
-          if (n > slides.length) {slideIndex = 1}
-          if (n < 1) {slideIndex = slides.length}
-          for (i = 0; i < slides.length; i++) {
-              slides[i].style.display = "none";
-          }
-          for (i = 0; i < dots.length; i++) {
-              dots[i].className = dots[i].className.replace(" active", "");
-          }
-          slides[slideIndex-1].style.display = "block";
-          dots[slideIndex-1].className += " active";
-          captionText.innerHTML = dots[slideIndex-1].alt;
-        }
-        </script>
-            
-</body>    
+
+</body>
+
 </html>

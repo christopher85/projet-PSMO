@@ -27,14 +27,21 @@ nav ul {
 nav li {
     font-family: 'kalam', sans-serif;
     font-size: 28px;
-
+    transition: 1s;
     a {
         color: blue;
         border-radius: 10px;
         border: 2px solid blue;
         padding: 5px 20px;
         background-color: rgba(218, 216, 216, 0.493);
+        transition: 1s;
     }
+}
+li:hover{
+    transform: scale(1.5);
+}
+a:hover{
+    background-color: rgba(255, 255, 255, 0.911);
 }
 
 /* ossature bois
@@ -75,10 +82,14 @@ nav li {
     width: 1200px;
     margin: auto;
     .bois p{
-        font-family: 'kalam', sans-serif;
+        font-family: 'lato', sans-serif;
         font-size: 20px;
         text-align: right;
         color: rgb(0, 38, 255);
+        border: 3px solid rgb(0, 38, 255);
+        padding: 1rem;
+        border-radius: 15px;
+        background: rgba(255, 255, 255, 0.548);
     }
 }
 
@@ -97,7 +108,7 @@ nav li {
     width: 1200px;
     margin: auto;
     .norme p{
-        font-family: 'kalam', sans-serif;
+        font-family: 'lato', sans-serif;
         font-size: 20px;
         text-align: left;
         color:  rgb(255, 255, 255);
@@ -127,10 +138,14 @@ nav li {
     width: 1200px;
     margin: auto;
     .devis p{
-        font-family: 'kalam', sans-serif;
+        font-family: 'lato', sans-serif;
         font-size: 25px;
         text-align: right;
         color: rgb(0, 38, 255);
+        border: 3px solid rgb(0, 38, 255);
+        padding: 1rem;
+        border-radius: 15px;
+        background: rgba(255, 255, 255, 0.548);
     }
 }
 /*rénovation
@@ -148,7 +163,7 @@ nav li {
     width: 1200px;
     margin: auto;
     .reno p{
-        font-family: 'kalam', sans-serif;
+        font-family: 'lato', sans-serif;
         font-size: 20px;
         text-align: left;
         margin-left: 20px;

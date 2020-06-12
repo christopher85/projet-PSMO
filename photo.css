@@ -40,6 +40,8 @@ ul {
 li {
   font-family: 'kalam', sans-serif;
   font-size: 28px;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 li a {
@@ -48,6 +50,17 @@ li a {
   border: 2px solid blue;
   padding: 5px 20px;
   background-color: rgba(218, 216, 216, 0.493);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+li:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+a:hover {
+  background-color: rgba(255, 255, 255, 0.911);
 }
 
 /*picture
@@ -90,9 +103,21 @@ li a {
 }
 
 img:hover {
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
+  -webkit-transform: scale(1.7);
+          transform: scale(1.7);
   z-index: 1;
+}
+
+.picture-1 div img {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.picture-1 div:hover img {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
 }
 
 /*média queries
