@@ -10,7 +10,8 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 20px;
+    margin: 10px;
+    width: 1600px;
 }
 
 .en-tete ul{
@@ -27,17 +28,28 @@ nav {
  a {
     color: blue;
     border-radius: 10px;
-    border: 2px solid blue;
+    border: 2px solid rgb(0, 0, 255);
     padding: 5px 20px;
     background-color: rgba(218, 216, 216, 0.493);
     transition: 1s;
 }
 li:hover{
-    transform: scale(2);
+    transform: scale(1.5);
 }
 a:hover{
     background-color: rgba(255, 255, 255, 0.911);
 }
+@media screen and (max-width:1100px){
+    nav{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    img{
+        margin-bottom: 20px;
+    }
+}
+
+
 
 /* Pretty Stuff */
 .contact-form-container {
@@ -205,7 +217,18 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 0.5fr 0.5fr 2fr;
-  grid-template-areas: "contact-us header header header" "contact-us address phone email" "contact-us contact-form contact-form contact-form";
+  grid-template-areas: "contact-us header header header" 
+                       "contact-us address phone email" 
+                       "contact-us contact-form contact-form contact-form";
+}
+
+@media screen and (max-width:900px){
+    .contact-form-container{
+        width: 700px;
+    }
+    .en-tete ul li{
+        font-size: 20px !important;
+    }
 }
 
 .contact-us {
