@@ -1,4 +1,13 @@
 @charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
 body {
   background-image: url(./resources/maison1-3D.jpg);
   background-position: center;
